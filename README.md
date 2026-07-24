@@ -8,7 +8,8 @@ A macOS menu bar app with a companion desktop widget that shows your current Cla
 ## Privacy & Security
 
 - Reads your Claude Code sign-in token to check usage — never writes or refreshes it.
-- Talks only to `api.anthropic.com`, using your own token.
+- Talks to `api.anthropic.com`, using your own token, to check your usage.
+- Checks GitHub's release infrastructure on a schedule for app updates, and downloads them only with your permission.
 - All data stays in this app's local storage on your Mac.
 - No usage data, analytics, or crash reports are ever sent anywhere.
 
