@@ -1,0 +1,47 @@
+name: Crash Report
+description: Report a crash in ClaudeWidget
+title: "Crash: "
+labels:
+  - crash
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a crash. ClaudeWidget sends nothing automatically — no telemetry, no crash reports — so crash logs have to be attached manually here.
+  - type: textarea
+    id: crash-log
+    attributes:
+      label: Crash log
+      description: >
+        Open Finder, go to `~/Library/Logs/DiagnosticReports`, find the most recent
+        `ClaudeWidget` crash file (it will look like `ClaudeWidget-<date>-<time>.ips` or
+        `.crash`), and paste its contents below or drag the file into this box to attach it.
+      placeholder: Paste the crash log contents here, or drag the file into this box.
+    validations:
+      required: true
+  - type: input
+    id: macos-version
+    attributes:
+      label: macOS version
+      description: "Apple menu → About This Mac"
+      placeholder: "e.g. macOS 26.1"
+    validations:
+      required: true
+  - type: input
+    id: app-version
+    attributes:
+      label: ClaudeWidget version
+      description: "Settings → About, or the version in the crash log"
+      placeholder: "e.g. 1.1.0"
+    validations:
+      required: false
+  - type: textarea
+    id: repro-steps
+    attributes:
+      label: What were you doing when it crashed?
+      description: Steps to reproduce, if known.
+      placeholder: |
+        1. Opened the menu bar panel
+        2. ...
+    validations:
+      required: false
