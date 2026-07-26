@@ -6,6 +6,37 @@
     <description>ClaudeWidget release feed</description>
     <language>en</language>
     <item>
+      <title>Version 1.1.1 (build 3)</title>
+      <sparkle:version>3</sparkle:version>
+      <sparkle:shortVersionString>1.1.1</sparkle:shortVersionString>
+      <pubDate>Sun, 26 Jul 2026 02:13:30 +0000</pubDate>
+      <description>&lt;h3&gt;Added&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;In-app uninstall: remove the app, its background helper, and its local data&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;  right from Settings, with a confirmation step first — no separate script&lt;/p&gt;
+&lt;p&gt;  to run.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A Privacy section in Settings that spells out exactly what the app reads&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;  and where any of it goes, with a "Learn more" link for the full picture.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Friendly placeholders instead of blank panel areas while the app is still&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;  waiting for its first bit of usage data.&lt;/p&gt;
+&lt;h3&gt;Changed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Clearer privacy wording throughout, describing precisely what talks to&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;  the network and why.&lt;/p&gt;
+&lt;h3&gt;Fixed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Uninstall now cleans up fully, and if a step can't complete, the app tells&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;  you exactly what wasn't removed instead of a generic error.&lt;/p&gt;</description>
+      <enclosure url="https://github.com/nicwittison/claudewidget-releases/releases/download/v1.1.1/ClaudeWidget.zip" sparkle:edSignature="De5jSf2wLG2IxDaqNKimNQIBdy4hL6kbiABUBD+snoTDIKPKFJo7ccG/RW6cQxzeNNWs65H9GclnscruNvIGBw==" length="7096133" type="application/octet-stream" />
+    </item>
+<item>
       <title>Version 1.1.0 (build 2)</title>
       <sparkle:version>2</sparkle:version>
       <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
@@ -15,8 +46,9 @@
 &lt;li&gt;Automatic updates: ClaudeWidget can now keep itself current. It asks for your permission first, then checks for new versions on a standard schedule and installs them in place through the familiar macOS update dialog.&lt;/li&gt;
 &lt;li&gt;Updates section in Settings: check for updates on demand, control automatic checking and downloading (downloads stay off unless you turn them on), and see your current version and when updates were last checked.&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <enclosure url="https://github.com/nicwittison/claudewidget-releases/releases/download/v1.1.0/ClaudeWidget.zip" sparkle:edSignature="uxWlUpglwreDdC5q/UQbXyCdtT15EamC8mctEcRG44Slncq+9Xb6MUpojdewgrx2eJg4NzVLzrCx9vnWmujTBg==" length="7056141" type="application/octet-stream" />
+      <enclosure url="https://github.com/nicwittison/claudewidget-releases/releases/download/v1.1.0/ClaudeWidget.zip" sparkle:edSignature="uxWlUpglwreDdC5q/UQbXyCdtT15EamC8mctEcRG44Slncq+9Xb6MUpojdewgrx2eJg4NzVLzrCx9vnWmujTBg==" length="7056141" type="application/octet-stream"/>
     </item>
+
 <item>
       <title>Version 1.0</title>
       <sparkle:version>1</sparkle:version>
